@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="_delsin_rowe_8cpp" kind="file" language="C++">
+    <compoundname>DelsinRowe.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes refid="_student_8h" local="yes">Student.h</includes>
+    <incdepgraph>
+      <node id="5">
+        <label>Birthday.h</label>
+        <link refid="_birthday_8h_source"/>
+      </node>
+      <node id="1">
+        <label>E:/programs/DelsinRowe/DelsinRowe/DelsinRowe.cpp</label>
+        <link refid="_delsin_rowe_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Student.h</label>
+        <link refid="_student_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_delsin_rowe_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Array gr in which student data is stored</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gr</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+<para>Entering student data And output data through the loop /summary&gt;</para>
+<para>Changing student data and deleting student data</para>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/DelsinRowe.cpp" line="23" column="5" bodyfile="E:/programs/DelsinRowe/DelsinRowe/DelsinRowe.cpp" bodystart="23" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>personal<sp/>academic<sp/>project.<sp/>Dear<sp/>PVS-Studio,<sp/>please<sp/>check<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>PVS-Studio<sp/>Static<sp/>Code<sp/>Analyzer<sp/>for<sp/>C,<sp/>C++,<sp/>C#,<sp/>and<sp/>Java:<sp/>https://pvs-studio.com</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Student.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>main()<sp/></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_student" kindref="compound">Student</ref><sp/>*gr[2];</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*Student<sp/>gr[2]<sp/>=<sp/>{{9,9,2002,&quot;Gritchin&quot;,&quot;Ilya&quot;,&quot;Vladimirovich&quot;},</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{21,2,2003,&quot;Zadorozhny&quot;,&quot;Denis&quot;,&quot;Vyacheslavovich&quot;}};*/</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[0]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_student" kindref="compound">Student</ref>({<sp/>9,9,2002},<sp/></highlight><highlight class="stringliteral">&quot;Gritchin&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Ilya&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Vladimirovich&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[1]<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_student" kindref="compound">Student</ref>({<sp/>21,2,2003<sp/>},<sp/></highlight><highlight class="stringliteral">&quot;Zadorozhny&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Denis&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Vyacheslavovich&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(gr)/</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(gr[0]);<sp/>i++)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gr[i]-&gt;<ref refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" kindref="member">show</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[0]-&gt;<ref refid="class_student_1a1386730534a8311a5aadb2225d84da73" kindref="member">SetFN</ref>(</highlight><highlight class="stringliteral">&quot;Nikolaev&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[1]-&gt;<ref refid="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" kindref="member">SetSN</ref>(</highlight><highlight class="stringliteral">&quot;Dinya&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[0]-&gt;<ref refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" kindref="member">show</ref>();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>gr[1]-&gt;<ref refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" kindref="member">show</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>gr[0];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>gr[1];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/DelsinRowe.cpp"/>
+  </compounddef>
+</doxygen>

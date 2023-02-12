@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.6" xml:lang="ru">
+  <compound refid="class_birthday" kind="class"><name>Birthday</name>
+    <member refid="class_birthday_1a792ae55e8a707e4856f2ca5b743cc2df" kind="variable"><name>day</name></member>
+    <member refid="class_birthday_1aa77066a2c92400d41bfe913299b6aaf8" kind="variable"><name>month</name></member>
+    <member refid="class_birthday_1a5cd958a8ea98e6ad43792e6f5a478c12" kind="variable"><name>year</name></member>
+    <member refid="class_birthday_1ad6de4c0553ea674c6a42172152f2c7ea" kind="function"><name>SetDay</name></member>
+    <member refid="class_birthday_1a6acb2e7216453370930be4897b7d84e7" kind="function"><name>GetDay</name></member>
+    <member refid="class_birthday_1a66ee313729ff16e6277224b05e88f5a9" kind="function"><name>SetMonth</name></member>
+    <member refid="class_birthday_1a49742a2783434be62b811e25a0412723" kind="function"><name>GetMonth</name></member>
+    <member refid="class_birthday_1a372a9797c6fb23f6b5ee8a6815a55388" kind="function"><name>SetYear</name></member>
+    <member refid="class_birthday_1aff871c8bb7142dec0383c82b86ace011" kind="function"><name>GetYear</name></member>
+  </compound>
+  <compound refid="class_student" kind="class"><name>Student</name>
+    <member refid="class_student_1a319863ecaa919fe0b6d56ebd11ee4ef6" kind="variable"><name>dr</name></member>
+    <member refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" kind="variable"><name>Firstname</name></member>
+    <member refid="class_student_1a4dd1b1da4bb6633d889f354856ac5a73" kind="variable"><name>Secondname</name></member>
+    <member refid="class_student_1a679cd84a0e66da668f67cb65058210c3" kind="variable"><name>Patronymic</name></member>
+    <member refid="class_student_1a8e1eef155251ec8808c0bd62b488df79" kind="function"><name>Student</name></member>
+    <member refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" kind="function"><name>show</name></member>
+    <member refid="class_student_1a1386730534a8311a5aadb2225d84da73" kind="function"><name>SetFN</name></member>
+    <member refid="class_student_1a2100b1d9dab04679cdd9ab51775e75d2" kind="function"><name>GetFn</name></member>
+    <member refid="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" kind="function"><name>SetSN</name></member>
+    <member refid="class_student_1a76ab2367fcd39d1c592beadb3f69c306" kind="function"><name>GetSN</name></member>
+    <member refid="class_student_1abae6881f52e2dc8e8f480779f32bb337" kind="function"><name>SetPN</name></member>
+    <member refid="class_student_1a4b082b2009651d4ebd4eb11a6b6676f9" kind="function"><name>GetPN</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_birthday_8cpp" kind="file"><name>Birthday.cpp</name>
+  </compound>
+  <compound refid="_birthday_8h" kind="file"><name>Birthday.h</name>
+  </compound>
+  <compound refid="_delsin_rowe_8cpp" kind="file"><name>DelsinRowe.cpp</name>
+    <member refid="_delsin_rowe_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_student_8cpp" kind="file"><name>Student.cpp</name>
+  </compound>
+  <compound refid="_student_8h" kind="file"><name>Student.h</name>
+  </compound>
+  <compound refid="dir_86f9f9d9e9656a4b4cd9065200b46b7f" kind="dir"><name>E:/programs/DelsinRowe/DelsinRowe</name>
+  </compound>
+</doxygenindex>

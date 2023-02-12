@@ -2,7 +2,7 @@
 class Birthday
 {
 	/// <summary>
-	/// Создание переменных для хранения дня, месяца и года рождения
+	/// Create variables to store day, month and year of birth
 	/// </summary>
 	public:
 		unsigned char day;
@@ -10,38 +10,38 @@ class Birthday
 		unsigned short year;
 
 	/// <summary>
-	/// Создание методов
+	/// Create methods
 	/// </summary>
 	public:
 		/// <summary>
-		/// Метод SetDay для отправки или замены даты рождения
+		/// SetDay method to send or replace date of birth
 		/// </summary>
-		/// <param name="day">День рождения</param>
+		/// <param name="day">Birthday</param>
 		void SetDay(unsigned char day);
 		/// <summary>
-		/// Метод GetDay для получения дня рождения студента
+		/// GetDay method to get the student's birthday
 		/// </summary>
-		/// <returns>День</returns>
+		/// <returns>Day</returns>
 		unsigned char GetDay();
 		/// <summary>
-		/// Метод SetMonth для отправки или замены месяца рождения студента
+		/// SetMonth method to send or replace the student's month of birth
 		/// </summary>
-		/// <param name="month">Месяц</param>
+		/// <param name="month">Month</param>
 		void SetMonth(unsigned char month);
 		/// <summary>
-		/// Метод GetMonth предназначен для получения месяца рождения студента
+		/// The GetMonth method is designed to get the month of the student's birth
 		/// </summary>
-		/// <returns>Месяц</returns>
+		/// <returns>Month</returns>
 		unsigned char GetMonth();
 		/// <summary>
-		/// Метод SetYear предназначен для отрпавки или замены года рождения студента
+		/// The SetYear method is designed to remove or replace the student's year of birth
 		/// </summary>
 		/// <param name="year"></param>
 		void SetYear(unsigned char year);
 		/// <summary>
-		/// Метод GetYear предназначен для получения года рождения студента
+		/// The GetYear method is designed to get the student's year of birth
 		/// </summary>
-		/// <returns>Год</returns>
+		/// <returns>Year</returns>
 		unsigned char GetYear();
 };
 

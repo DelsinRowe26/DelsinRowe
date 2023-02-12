@@ -1,0 +1,51 @@
+\doxysection{Student.\+cpp}
+\label{_student_8cpp_source}\index{E:/programs/DelsinRowe/DelsinRowe/Student.cpp@{E:/programs/DelsinRowe/DelsinRowe/Student.cpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#include\ "{}Student.h"{}}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00013\ Student::Student(Birthday\ db,\ \textcolor{keywordtype}{string}\ FN,\ \textcolor{keywordtype}{string}\ SN,\ \textcolor{keywordtype}{string}\ PN)}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \ \ \ \ dr.day\ =\ db.day;}
+\DoxyCodeLine{00016\ \ \ \ \ dr.month\ =\ db.month;}
+\DoxyCodeLine{00017\ \ \ \ \ dr.year\ =\ db.year;}
+\DoxyCodeLine{00018\ \ \ \ \ Firstname\ =\ FN;}
+\DoxyCodeLine{00019\ \ \ \ \ Secondname\ =\ SN;}
+\DoxyCodeLine{00020\ \ \ \ \ Patronymic\ =\ PN;}
+\DoxyCodeLine{00021\ \}}
+\DoxyCodeLine{00026\ \textcolor{keywordtype}{void}\ Student::show(\textcolor{keywordtype}{void})\ }
+\DoxyCodeLine{00027\ \{}
+\DoxyCodeLine{00028\ \ \ \ \ printf(\textcolor{stringliteral}{"{}\%s\ \%s\ \%s\ \%02u.\%02u.\%04u\(\backslash\)n"{}},\ this-\/>Firstname.c\_str(),\ this-\/>Secondname.c\_str(),\ this-\/>Patronymic.c\_str(),\ this-\/>dr.day,\ this-\/>dr.month,\ this-\/>dr.year);}
+\DoxyCodeLine{00029\ \}}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00035\ \textcolor{keywordtype}{void}\ Student::SetFN(\textcolor{keywordtype}{string}\ FN)\ }
+\DoxyCodeLine{00036\ \{}
+\DoxyCodeLine{00037\ \ \ \ \ Firstname\ =\ FN;}
+\DoxyCodeLine{00038\ \}}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00044\ \textcolor{keywordtype}{string}\ Student::GetFn()\ }
+\DoxyCodeLine{00045\ \{}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordflow}{return}\ Firstname;}
+\DoxyCodeLine{00047\ \}}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00053\ \textcolor{keywordtype}{void}\ Student::SetSN(\textcolor{keywordtype}{string}\ SN)\ }
+\DoxyCodeLine{00054\ \{}
+\DoxyCodeLine{00055\ \ \ \ \ Secondname\ =\ SN;}
+\DoxyCodeLine{00056\ \}}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00062\ \textcolor{keywordtype}{string}\ Student::GetSN()\ }
+\DoxyCodeLine{00063\ \{}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordflow}{return}\ Secondname;}
+\DoxyCodeLine{00065\ \}}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00071\ \textcolor{keywordtype}{void}\ Student::SetPN(\textcolor{keywordtype}{string}\ PN)\ }
+\DoxyCodeLine{00072\ \{}
+\DoxyCodeLine{00073\ \ \ \ \ Patronymic\ =\ PN;}
+\DoxyCodeLine{00074\ \}}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00080\ \textcolor{keywordtype}{string}\ Student::GetPN()}
+\DoxyCodeLine{00081\ \{}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordflow}{return}\ Patronymic;}
+\DoxyCodeLine{00083\ \}}
+
+\end{DoxyCode}

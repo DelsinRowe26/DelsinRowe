@@ -1,0 +1,241 @@
+.TH "Student" 3 "Вс 12 Фев 2023" "Version 1.0.0.1" "Student" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Student
+.SH SYNOPSIS
+.br
+.PP
+.SS "Открытые члены"
+
+.in +1c
+.ti -1c
+.RI "\fBStudent\fP (\fBBirthday\fP dr, string FN, string SN, string PN)"
+.br
+.RI "Method: \fBStudent\fP Description: Variables are entered into this method (Surname, First name, Patronymic and date of birth of the student) "
+.ti -1c
+.RI "void \fBshow\fP (void)"
+.br
+.RI "Create methods\&. "
+.ti -1c
+.RI "void \fBSetFN\fP (string FN)"
+.br
+.RI "SetFN method to send the student's last name to replace\&. "
+.ti -1c
+.RI "string \fBGetFn\fP ()"
+.br
+.RI "GetFN method for getting the student's last name\&. "
+.ti -1c
+.RI "void \fBSetSN\fP (string SN)"
+.br
+.RI "Method SetSN send student name to replace\&. "
+.ti -1c
+.RI "string \fBGetSN\fP ()"
+.br
+.RI "GetSN method for getting the student's name\&. "
+.ti -1c
+.RI "void \fBSetPN\fP (string PN)"
+.br
+.RI "The SetPN method of sending the student's middle name to replace it\&. "
+.ti -1c
+.RI "string \fBGetPN\fP ()"
+.br
+.RI "GetPN method getting the student's middle name\&. "
+.in -1c
+.SS "Открытые атрибуты"
+
+.in +1c
+.ti -1c
+.RI "\fBBirthday\fP \fBdr\fP"
+.br
+.in -1c
+.SS "Защищенные данные"
+
+.in +1c
+.ti -1c
+.RI "string \fBFirstname\fP"
+.br
+.RI "Create protected type variables\&. "
+.ti -1c
+.RI "string \fBSecondname\fP"
+.br
+.ti -1c
+.RI "string \fBPatronymic\fP"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+См\&. определение в файле \fBStudent\&.h\fP строка \fB9\fP
+.SH "Конструктор(ы)"
+.PP 
+.SS "Student::Student (\fBBirthday\fP db, string FN, string SN, string PN)"
+
+.PP
+Method: \fBStudent\fP Description: Variables are entered into this method (Surname, First name, Patronymic and date of birth of the student) Method: \fBStudent\fP Target: Get user input\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fIdb\fP variable belonging to the class Bithday, it stores the student's date of birth 
+.br
+\fIFN\fP Last name
+.br
+\fISN\fP Name
+.br
+\fIPN\fP Patronymic name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB13\fP
+.SH "Методы"
+.PP 
+.SS "string Student::GetFn ()"
+
+.PP
+GetFN method for getting the student's last name\&. GetFN method to get the student's last name\&.
+.PP
+\fBВозвращает\fP
+.RS 4
+\fBStudent\fP's last name
+.RE
+.PP
+.PP
+\fBВозвращает\fP
+.RS 4
+Last name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB44\fP
+.SS "string Student::GetPN ()"
+
+.PP
+GetPN method getting the student's middle name\&. GetPN method for getting a student's middle name\&.
+.PP
+\fBВозвращает\fP
+.RS 4
+\fBStudent\fP report
+.RE
+.PP
+.PP
+\fBВозвращает\fP
+.RS 4
+Patronymic
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB80\fP
+.SS "string Student::GetSN ()"
+
+.PP
+GetSN method for getting the student's name\&. GetSN method to get student name\&.
+.PP
+\fBВозвращает\fP
+.RS 4
+\fBStudent\fP name
+.RE
+.PP
+.PP
+\fBВозвращает\fP
+.RS 4
+Name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB62\fP
+.SS "void Student::SetFN (string FN)"
+
+.PP
+SetFN method to send the student's last name to replace\&. SetFN method to send last name to replace it\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fIFN\fP last name
+.RE
+.PP
+.PP
+\fBАргументы\fP
+.RS 4
+\fIFN\fP Last name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB35\fP
+.SS "void Student::SetPN (string PN)"
+
+.PP
+The SetPN method of sending the student's middle name to replace it\&. SetPN method to send and replace the student's middle name\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fIPN\fP middle name
+.RE
+.PP
+.PP
+\fBАргументы\fP
+.RS 4
+\fIPN\fP Patronymic name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB71\fP
+.SS "void Student::SetSN (string SN)"
+
+.PP
+Method SetSN send student name to replace\&. SetSN method to send the student's name, and replace the name\&.
+.PP
+\fBАргументы\fP
+.RS 4
+\fISN\fP name
+.RE
+.PP
+.PP
+\fBАргументы\fP
+.RS 4
+\fISN\fP Name
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB53\fP
+.SS "void Student::show (void)"
+
+.PP
+Create methods\&. show method to display student data
+.PP
+Display show method
+.PP
+<paramname=''>
+.PP
+<paramname=''>
+.PP
+См\&. определение в файле \fBStudent\&.cpp\fP строка \fB26\fP
+.SH "Данные класса"
+.PP 
+.SS "\fBBirthday\fP Student::dr"
+
+.PP
+См\&. определение в файле \fBStudent\&.h\fP строка \fB19\fP
+.SS "string Student::Firstname\fC [protected]\fP"
+
+.PP
+Create protected type variables\&. 
+.PP
+См\&. определение в файле \fBStudent\&.h\fP строка \fB65\fP
+.SS "string Student::Patronymic\fC [protected]\fP"
+
+.PP
+См\&. определение в файле \fBStudent\&.h\fP строка \fB67\fP
+.SS "string Student::Secondname\fC [protected]\fP"
+
+.PP
+См\&. определение в файле \fBStudent\&.h\fP строка \fB66\fP
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Student из исходного текста\&.

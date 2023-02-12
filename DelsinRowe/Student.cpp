@@ -1,15 +1,15 @@
 #include "Student.h"
 
 /// <summary>
-/// Метод: Student
-///	Цель:
-///		Получение введенных данных пользователем
-///	
+/// Method: Student
+///	Target:
+/// Get user input
+///
 /// </summary>
-/// <param name="db">переменная относящаяся к классу Bithday, в ней хранится дата рожедения студента </param>
-/// <param name="FN">Фамилия</param>
-/// <param name="SN">Имя</param>
-/// <param name="PN">Отчество</param>
+/// <param name="db">variable belonging to the class Bithday, it stores the student's date of birth </param>
+/// <param name="FN">Last name</param>
+/// <param name="SN">Name</param>
+/// <param name="PN">Patronymic name</param>
 Student::Student(Birthday db, string FN, string SN, string PN)
 {
 	dr.day = db.day;
@@ -20,63 +20,63 @@ Student::Student(Birthday db, string FN, string SN, string PN)
 	Patronymic = PN;
 }
 /// <summary>
-/// Метод show для отображения данных студента
+/// show method to display student data
 /// </summary>
-/// <param name=""></param>
+/// <paramname=""></param>
 void Student::show(void) 
 {
 	printf("%s %s %s %02u.%02u.%04u\n", this->Firstname.c_str(), this->Secondname.c_str(), this->Patronymic.c_str(), this->dr.day, this->dr.month, this->dr.year);
 }
 
 /// <summary>
-/// Метод SetFN для отправки фамилии для её замены
+/// SetFN method to send last name to replace it
 /// </summary>
-/// <param name="FN">Фамилия</param>
+/// <param name="FN">Last name</param>
 void Student::SetFN(string FN) 
 {
 	Firstname = FN;
 }
 
 /// <summary>
-/// Метод GetFN для получения фамилии студента
+/// GetFN method to get the student's last name
 /// </summary>
-/// <returns>Фамилию</returns>
+/// <returns>Last name</returns>
 string Student::GetFn() 
 {
 	return Firstname;
 }
 
 /// <summary>
-/// Метод SetSN для отправки имени студента, и замены имени
+/// SetSN method to send the student's name, and replace the name
 /// </summary>
-/// <param name="SN">Имя</param>
+/// <param name="SN">Name</param>
 void Student::SetSN(string SN) 
 {
 	Secondname = SN;
 }
 
 /// <summary>
-/// Метод GetSN для получения имени студента
+/// GetSN method to get student name
 /// </summary>
-/// <returns>Имя</returns>
+/// <returns>Name</returns>
 string Student::GetSN() 
 {
 	return Secondname;
 }
 
 /// <summary>
-/// Метод SetPN для отправки и замены отчества студента
+/// SetPN method to send and replace the student's middle name
 /// </summary>
-/// <param name="PN">Отчество</param>
+/// <param name="PN">Patronymic name</param>
 void Student::SetPN(string PN) 
 {
 	Patronymic = PN;
 }
 
 /// <summary>
-/// Метод GetPN для получения отчества студента
+/// GetPN method for getting a student's middle name
 /// </summary>
-/// <returns>Отчество</returns>
+/// <returns>Patronymic</returns>
 string Student::GetPN()
 {
 	return Patronymic;

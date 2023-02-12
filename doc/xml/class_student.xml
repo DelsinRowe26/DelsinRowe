@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_student" kind="class" language="C++" prot="public">
+    <compoundname>Student</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_student_1a319863ecaa919fe0b6d56ebd11ee4ef6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_birthday" kindref="compound">Birthday</ref></type>
+        <definition>Birthday Student::dr</definition>
+        <argsstring></argsstring>
+        <name>dr</name>
+        <qualifiedname>Student::dr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="19" column="10" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_student_1ab0f48036bf6c84d78849e3e288ed1885" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Student::Firstname</definition>
+        <argsstring></argsstring>
+        <name>Firstname</name>
+        <qualifiedname>Student::Firstname</qualifiedname>
+        <briefdescription>
+<para>Create protected type variables. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="65" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_student_1a4dd1b1da4bb6633d889f354856ac5a73" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Student::Secondname</definition>
+        <argsstring></argsstring>
+        <name>Secondname</name>
+        <qualifiedname>Student::Secondname</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="66" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_student_1a679cd84a0e66da668f67cb65058210c3" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Student::Patronymic</definition>
+        <argsstring></argsstring>
+        <name>Patronymic</name>
+        <qualifiedname>Student::Patronymic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="67" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_student_1a8e1eef155251ec8808c0bd62b488df79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Student::Student</definition>
+        <argsstring>(Birthday dr, string FN, string SN, string PN)</argsstring>
+        <name>Student</name>
+        <qualifiedname>Student::Student</qualifiedname>
+        <param>
+          <type><ref refid="class_birthday" kindref="compound">Birthday</ref></type>
+          <declname>dr</declname>
+          <defname>db</defname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>FN</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>SN</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>PN</declname>
+        </param>
+        <briefdescription>
+<para>Method: <ref refid="class_student" kindref="compound">Student</ref> Description: Variables are entered into this method (Surname, First name, Patronymic and date of birth of the student) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Method: <ref refid="class_student" kindref="compound">Student</ref> Target: Get user input.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>db</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>variable belonging to the class Bithday, it stores the student&apos;s date of birth </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Last name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>SN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Patronymic name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="18" column="1" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Student::show</definition>
+        <argsstring>(void)</argsstring>
+        <name>show</name>
+        <qualifiedname>Student::show</qualifiedname>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Create methods. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>show method to display student data</para>
+<para>Display show method</para>
+<para>&lt;paramname=&quot;&quot;&gt;</para>
+<para>&lt;paramname=&quot;&quot;&gt;</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="29" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1a1386730534a8311a5aadb2225d84da73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Student::SetFN</definition>
+        <argsstring>(string FN)</argsstring>
+        <name>SetFN</name>
+        <qualifiedname>Student::SetFN</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>FN</declname>
+        </param>
+        <briefdescription>
+<para>SetFN method to send the student&apos;s last name to replace. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>SetFN method to send last name to replace it.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>last name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>FN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Last name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="34" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1a2100b1d9dab04679cdd9ab51775e75d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Student::GetFn</definition>
+        <argsstring>()</argsstring>
+        <name>GetFn</name>
+        <qualifiedname>Student::GetFn</qualifiedname>
+        <briefdescription>
+<para>GetFN method for getting the student&apos;s last name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>GetFN method to get the student&apos;s last name.</para>
+<para><simplesect kind="return"><para><ref refid="class_student" kindref="compound">Student</ref>&apos;s last name</para>
+</simplesect>
+</para>
+<para><simplesect kind="return"><para>Last name</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="39" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Student::SetSN</definition>
+        <argsstring>(string SN)</argsstring>
+        <name>SetSN</name>
+        <qualifiedname>Student::SetSN</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>SN</declname>
+        </param>
+        <briefdescription>
+<para>Method SetSN send student name to replace. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>SetSN method to send the student&apos;s name, and replace the name.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="44" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1a76ab2367fcd39d1c592beadb3f69c306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Student::GetSN</definition>
+        <argsstring>()</argsstring>
+        <name>GetSN</name>
+        <qualifiedname>Student::GetSN</qualifiedname>
+        <briefdescription>
+<para>GetSN method for getting the student&apos;s name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>GetSN method to get student name.</para>
+<para><simplesect kind="return"><para><ref refid="class_student" kindref="compound">Student</ref> name</para>
+</simplesect>
+</para>
+<para><simplesect kind="return"><para>Name</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="49" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1abae6881f52e2dc8e8f480779f32bb337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Student::SetPN</definition>
+        <argsstring>(string PN)</argsstring>
+        <name>SetPN</name>
+        <qualifiedname>Student::SetPN</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>PN</declname>
+        </param>
+        <briefdescription>
+<para>The SetPN method of sending the student&apos;s middle name to replace it. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>SetPN method to send and replace the student&apos;s middle name.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>PN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>middle name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>PN</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Patronymic name</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="54" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_student_1a4b082b2009651d4ebd4eb11a6b6676f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Student::GetPN</definition>
+        <argsstring>()</argsstring>
+        <name>GetPN</name>
+        <qualifiedname>Student::GetPN</qualifiedname>
+        <briefdescription>
+<para>GetPN method getting the student&apos;s middle name. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>GetPN method for getting a student&apos;s middle name.</para>
+<para><simplesect kind="return"><para><ref refid="class_student" kindref="compound">Student</ref> report</para>
+</simplesect>
+</para>
+<para><simplesect kind="return"><para>Patronymic</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="59" column="8" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Birthday</label>
+        <link refid="class_birthday"/>
+      </node>
+      <node id="1">
+        <label>Student</label>
+        <link refid="class_student"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>dr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/Student.h" line="9" column="1" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Student.h" bodystart="10" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_student_1a319863ecaa919fe0b6d56ebd11ee4ef6" prot="public" virt="non-virtual"><scope>Student</scope><name>dr</name></member>
+      <member refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" prot="protected" virt="non-virtual"><scope>Student</scope><name>Firstname</name></member>
+      <member refid="class_student_1a2100b1d9dab04679cdd9ab51775e75d2" prot="public" virt="non-virtual"><scope>Student</scope><name>GetFn</name></member>
+      <member refid="class_student_1a4b082b2009651d4ebd4eb11a6b6676f9" prot="public" virt="non-virtual"><scope>Student</scope><name>GetPN</name></member>
+      <member refid="class_student_1a76ab2367fcd39d1c592beadb3f69c306" prot="public" virt="non-virtual"><scope>Student</scope><name>GetSN</name></member>
+      <member refid="class_student_1a679cd84a0e66da668f67cb65058210c3" prot="protected" virt="non-virtual"><scope>Student</scope><name>Patronymic</name></member>
+      <member refid="class_student_1a4dd1b1da4bb6633d889f354856ac5a73" prot="protected" virt="non-virtual"><scope>Student</scope><name>Secondname</name></member>
+      <member refid="class_student_1a1386730534a8311a5aadb2225d84da73" prot="public" virt="non-virtual"><scope>Student</scope><name>SetFN</name></member>
+      <member refid="class_student_1abae6881f52e2dc8e8f480779f32bb337" prot="public" virt="non-virtual"><scope>Student</scope><name>SetPN</name></member>
+      <member refid="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" prot="public" virt="non-virtual"><scope>Student</scope><name>SetSN</name></member>
+      <member refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" prot="public" virt="non-virtual"><scope>Student</scope><name>show</name></member>
+      <member refid="class_student_1a8e1eef155251ec8808c0bd62b488df79" prot="public" virt="non-virtual"><scope>Student</scope><name>Student</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

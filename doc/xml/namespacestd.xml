@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="namespacestd" kind="namespace" language="C++">
+    <compoundname>std</compoundname>
+    <briefdescription>
+<para>Program: DelsinRowe Purpose: Display student data Result: Display student data. Callable classes: <ref refid="class_student" kindref="compound">Student</ref>. Program description: Output student data, and the ability to change data Date: 02/10/2023 Version 1.0.0.1 Author: Gritchin I.V. Fixes: no /summary&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/DelsinRowe.cpp" line="21" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="_student_8cpp" kind="file" language="C++">
+    <compoundname>Student.cpp</compoundname>
+    <includes refid="_student_8h" local="yes">Student.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>Birthday.h</label>
+        <link refid="_birthday_8h_source"/>
+      </node>
+      <node id="1">
+        <label>E:/programs/DelsinRowe/DelsinRowe/Student.cpp</label>
+        <link refid="_student_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Student.h</label>
+        <link refid="_student_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;Student.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_student_1a8e1eef155251ec8808c0bd62b488df79" refkind="member"><highlight class="normal"><ref refid="class_student_1a8e1eef155251ec8808c0bd62b488df79" kindref="member">Student::Student</ref>(<ref refid="class_birthday" kindref="compound">Birthday</ref><sp/>db,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>FN,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SN,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>PN)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>dr.<ref refid="class_birthday_1a792ae55e8a707e4856f2ca5b743cc2df" kindref="member">day</ref><sp/>=<sp/>db.<ref refid="class_birthday_1a792ae55e8a707e4856f2ca5b743cc2df" kindref="member">day</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>dr.month<sp/>=<sp/>db.month;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>dr.year<sp/>=<sp/>db.year;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" kindref="member">Firstname</ref><sp/>=<sp/>FN;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>Secondname<sp/>=<sp/>SN;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Patronymic<sp/>=<sp/>PN;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26" refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_student_1aea8bb496fe06c5d42a923c42a57e8e7d" kindref="member">Student::show</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%s<sp/>%s<sp/>%s<sp/>%02u.%02u.%04u\n&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" kindref="member">Firstname</ref>.c_str(),<sp/>this-&gt;Secondname.c_str(),<sp/>this-&gt;Patronymic.c_str(),<sp/>this-&gt;dr.day,<sp/>this-&gt;dr.month,<sp/>this-&gt;dr.year);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_student_1a1386730534a8311a5aadb2225d84da73" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_student_1a1386730534a8311a5aadb2225d84da73" kindref="member">Student::SetFN</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>FN)<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" kindref="member">Firstname</ref><sp/>=<sp/>FN;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="class_student_1a2100b1d9dab04679cdd9ab51775e75d2" refkind="member"><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_student_1a2100b1d9dab04679cdd9ab51775e75d2" kindref="member">Student::GetFn</ref>()<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_student_1ab0f48036bf6c84d78849e3e288ed1885" kindref="member">Firstname</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_student_1a6df281ccd6f1d9efa1d3f5413f108be4" kindref="member">Student::SetSN</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>SN)<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>Secondname<sp/>=<sp/>SN;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="class_student_1a76ab2367fcd39d1c592beadb3f69c306" refkind="member"><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_student_1a76ab2367fcd39d1c592beadb3f69c306" kindref="member">Student::GetSN</ref>()<sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Secondname;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_student_1abae6881f52e2dc8e8f480779f32bb337" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_student_1abae6881f52e2dc8e8f480779f32bb337" kindref="member">Student::SetPN</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>PN)<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>Patronymic<sp/>=<sp/>PN;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_student_1a4b082b2009651d4ebd4eb11a6b6676f9" refkind="member"><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_student_1a4b082b2009651d4ebd4eb11a6b6676f9" kindref="member">Student::GetPN</ref>()</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Patronymic;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/Student.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="class_birthday" kind="class" language="C++" prot="public">
+    <compoundname>Birthday</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_birthday_1a792ae55e8a707e4856f2ca5b743cc2df" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Birthday::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <qualifiedname>Birthday::day</qualifiedname>
+        <briefdescription>
+<para>Create variables to store day, month and year of birth. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="8" column="15" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_birthday_1aa77066a2c92400d41bfe913299b6aaf8" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char Birthday::month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <qualifiedname>Birthday::month</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="9" column="15" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_birthday_1a5cd958a8ea98e6ad43792e6f5a478c12" prot="public" static="no" mutable="no">
+        <type>unsigned short</type>
+        <definition>unsigned short Birthday::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <qualifiedname>Birthday::year</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="10" column="16" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_birthday_1ad6de4c0553ea674c6a42172152f2c7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Birthday::SetDay</definition>
+        <argsstring>(unsigned char day)</argsstring>
+        <name>SetDay</name>
+        <qualifiedname>Birthday::SetDay</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+<para>Create methods. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>SetDay method to send or replace date of birth.</para>
+<para>SetDay method to send or replace date of birth</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_birthday" kindref="compound">Birthday</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_birthday" kindref="compound">Birthday</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="20" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_birthday_1a6acb2e7216453370930be4897b7d84e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Birthday::GetDay</definition>
+        <argsstring>()</argsstring>
+        <name>GetDay</name>
+        <qualifiedname>Birthday::GetDay</qualifiedname>
+        <briefdescription>
+<para>GetDay method to get the student&apos;s birthday. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Day</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="25" column="15" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_birthday_1a66ee313729ff16e6277224b05e88f5a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Birthday::SetMonth</definition>
+        <argsstring>(unsigned char month)</argsstring>
+        <name>SetMonth</name>
+        <qualifiedname>Birthday::SetMonth</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>month</declname>
+        </param>
+        <briefdescription>
+<para>SetMonth method to send or replace the student&apos;s month of birth. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Month</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="30" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_birthday_1a49742a2783434be62b811e25a0412723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Birthday::GetMonth</definition>
+        <argsstring>()</argsstring>
+        <name>GetMonth</name>
+        <qualifiedname>Birthday::GetMonth</qualifiedname>
+        <briefdescription>
+<para>The GetMonth method is designed to get the month of the student&apos;s birth. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Month</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="35" column="15" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_birthday_1a372a9797c6fb23f6b5ee8a6815a55388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Birthday::SetYear</definition>
+        <argsstring>(unsigned char year)</argsstring>
+        <name>SetYear</name>
+        <qualifiedname>Birthday::SetYear</qualifiedname>
+        <param>
+          <type>unsigned char</type>
+          <declname>year</declname>
+        </param>
+        <briefdescription>
+<para>The SetYear method is designed to remove or replace the student&apos;s year of birth. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="40" column="6" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_birthday_1aff871c8bb7142dec0383c82b86ace011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char Birthday::GetYear</definition>
+        <argsstring>()</argsstring>
+        <name>GetYear</name>
+        <qualifiedname>Birthday::GetYear</qualifiedname>
+        <briefdescription>
+<para>The GetYear method is designed to get the student&apos;s year of birth. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Year</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="45" column="15" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.cpp" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" line="2" column="1" bodyfile="E:/programs/DelsinRowe/DelsinRowe/Birthday.h" bodystart="3" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_birthday_1a792ae55e8a707e4856f2ca5b743cc2df" prot="public" virt="non-virtual"><scope>Birthday</scope><name>day</name></member>
+      <member refid="class_birthday_1a6acb2e7216453370930be4897b7d84e7" prot="public" virt="non-virtual"><scope>Birthday</scope><name>GetDay</name></member>
+      <member refid="class_birthday_1a49742a2783434be62b811e25a0412723" prot="public" virt="non-virtual"><scope>Birthday</scope><name>GetMonth</name></member>
+      <member refid="class_birthday_1aff871c8bb7142dec0383c82b86ace011" prot="public" virt="non-virtual"><scope>Birthday</scope><name>GetYear</name></member>
+      <member refid="class_birthday_1aa77066a2c92400d41bfe913299b6aaf8" prot="public" virt="non-virtual"><scope>Birthday</scope><name>month</name></member>
+      <member refid="class_birthday_1ad6de4c0553ea674c6a42172152f2c7ea" prot="public" virt="non-virtual"><scope>Birthday</scope><name>SetDay</name></member>
+      <member refid="class_birthday_1a66ee313729ff16e6277224b05e88f5a9" prot="public" virt="non-virtual"><scope>Birthday</scope><name>SetMonth</name></member>
+      <member refid="class_birthday_1a372a9797c6fb23f6b5ee8a6815a55388" prot="public" virt="non-virtual"><scope>Birthday</scope><name>SetYear</name></member>
+      <member refid="class_birthday_1a5cd958a8ea98e6ad43792e6f5a478c12" prot="public" virt="non-virtual"><scope>Birthday</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

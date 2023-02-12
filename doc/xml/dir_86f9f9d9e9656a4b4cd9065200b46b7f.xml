@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="ru">
+  <compounddef id="dir_86f9f9d9e9656a4b4cd9065200b46b7f" kind="dir">
+    <compoundname>E:/programs/DelsinRowe/DelsinRowe</compoundname>
+    <innerfile refid="_birthday_8cpp">Birthday.cpp</innerfile>
+    <innerfile refid="_birthday_8h">Birthday.h</innerfile>
+    <innerfile refid="_delsin_rowe_8cpp">DelsinRowe.cpp</innerfile>
+    <innerfile refid="_student_8cpp">Student.cpp</innerfile>
+    <innerfile refid="_student_8h">Student.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="E:/programs/DelsinRowe/DelsinRowe/"/>
+  </compounddef>
+</doxygen>

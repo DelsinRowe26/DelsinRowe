@@ -1,5 +1,5 @@
 ///<summary>
-/// Заголовок класса Student.cpp
+/// Class header Student.cpp
 ///</summary>
 #pragma once
 #include <string>
@@ -9,10 +9,9 @@ using namespace std;
 class Student
 {
 	/// <summary>
-	/// Метод: Student
-	/// Описание:
-	///		В данный метод вносятся переменные(Фамилия, Имя, Отчество и дата рождения студента)
-	/// 
+	/// Method: Student
+	/// Description:
+	/// Variables are entered into this method (Surname, First name, Patronymic and date of birth of the student)
 	/// </summary>
 	public:
 	//	int age;
@@ -20,47 +19,47 @@ class Student
 		Birthday dr;
 		
 	/// <summary>
-	/// Создание методов
+	/// Create methods
 	/// </summary>
 	public:
 		/// <summary>
-		/// Метод show отображения
+		/// Display show method
 		/// </summary>
-		/// <param name=""></param>
+		/// <paramname=""></param>
 		void show(void);
 		/// <summary>
-		/// Метод SetFN отправки фамилии студента для замены 
+		/// SetFN method to send the student's last name to replace
 		/// </summary>
-		/// <param name="FN">фамилия</param>
+		/// <param name="FN">last name</param>
 		void SetFN(string FN);
 		/// <summary>
-		/// Метод GetFN получения фамилии студента
+		/// GetFN method for getting the student's last name
 		/// </summary>
-		/// <returns>Фамилия студента</returns>
+		/// <returns>Student's last name</returns>
 		string GetFn();
 		/// <summary>
-		/// Метода SetSN отправки имени студента для замены
+		/// Method SetSN send student name to replace
 		/// </summary>
-		/// <param name="SN">имя</param>
+		/// <param name="SN">name</param>
 		void SetSN(string SN);
 		/// <summary>
-		/// Метод GetSN получения имени студента
+		/// GetSN method for getting the student's name
 		/// </summary>
-		/// <returns>Имя студента</returns>
+		/// <returns>Student name</returns>
 		string GetSN();
 		/// <summary>
-		/// Метод SetPN отправки отчества студента для его замены
+		/// The SetPN method of sending the student's middle name to replace it
 		/// </summary>
-		/// <param name="PN">отчество</param>
+		/// <param name="PN">middle name</param>
 		void SetPN(string PN);
 		/// <summary>
-		/// Метод GetPN получение отчества студента
+		/// GetPN method getting the student's middle name
 		/// </summary>
-		/// <returns>Отчетсво студента</returns>
+		/// <returns>Student report</returns>
 		string GetPN();
 
 	/// <summary>
-	/// Создание переменных защищенного типа 
+	/// Create protected type variables
 	/// </summary>
 	protected:
 		string Firstname;
